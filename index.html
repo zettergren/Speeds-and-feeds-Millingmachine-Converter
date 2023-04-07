@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Index</title>
+<link href="index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<h1>Speeds and feeds <span>(millingmachine)</span></h1>
+	</header>
+	<main>
+		<div>
+			<form>
+				Cutting speed m/min: <input type="text" id="firstNumber1" /><br>
+				Diameter mm: <input type="text" id="secondNumber2" /><br>
+				<input type="button" onClick="divideBy()" class="btn" Value="Convert" />
+			</form>
+				<button id="reset2" class="btn">Reset</button>
+				<p>RPM: <br>
+				<span id = "result2"></span>
+				</p>
+		</div>		
+		<div>
+			<form>
+				Feed mm/min: <input type="text" id="firstNumber" /><br>
+				Number of inserts: <input type="text" id="secondNumber" /><br>
+				RPM: <input type="text" id="thirdNumber" /><br>
+				<input type="button" onClick="multiplyBy()" class="btn" Value="Convert" />	
+			</form>
+				<button id="reset" class="btn">Reset</button>
+				<p>Tablefeed, mm/insert: <br>
+				<span id = "result"></span>
+				</p>
+		</div>
+
+	</main>
+	
+<script src="index.js"></script>
+</body>
+</html>

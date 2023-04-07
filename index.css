@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	margin: 0;
+	text-align: center;
+	height: 100%;
+	background: cover, no-repeat;
+	background-color: #243B55;
+	color: aliceblue;
+	font-size: 18px;
+	text-shadow: 0px 0px 8px #000;
+	font-family: 'Nunito', sans-serif;
+	letter-spacing: 1px;
+}
+
+header{
+	background-color: #141E30;
+	box-shadow: 0px 0px 30px #000;
+}
+
+h1 {
+	margin: 0;
+	font-size: 25px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 10px;
+	text-shadow: 0px 0px 15px #000;
+}
+
+h1 > span {
+	font-size: 18px;
+}
+
+main {
+	display: inline-block;
+	justify-content: center;
+}
+
+div {
+	background: #141E30;
+    background: -webkit-linear-gradient(to bottom, #243B55, #141E30);
+    background: linear-gradient(to bottom, #243B55, #141E30);
+	padding: 100px;
+	border-radius: 20px;
+	width: 200px;
+	height: 400px;
+	margin: 50px 30px;
+	box-shadow: 0px 0px 30px #000;
+}
+
+input {
+	box-shadow: 0px 0px 20px #000;
+	margin-bottom: 30px;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 5px 0px;
+	box-sizing: border-box;
+}
+
+.btn {
+	font-family: inherit;
+	margin-top: 20px;
+	border: none;
+	border-radius: 10px;
+	width: 100%;
+	padding: 7px 0;
+	background-color: #243B55;
+	color: aliceblue;
+	text-shadow: inherit;
+	box-shadow: 0px 0px 20px #000;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+.btn:hover {
+	background-color: #141E30;
+	font-size: 15px;
+}
+
+@media screen and (min-width: 920px) {
+	html, body {
+			background: #243B55, cover, no-repeat;
+            background: -webkit-linear-gradient(to top, #141E30, #243B55);
+            background: linear-gradient(to top, #141E30, #243B55);
+	}
+	main {
+		display: flex;
+		justify-content: center;
+	}
+}
+
