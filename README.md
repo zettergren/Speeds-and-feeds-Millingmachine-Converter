@@ -4,5 +4,6 @@ This is a converter for millingmachines where you can put in your cuttingspeed a
 
 <b>This converter calculates in millimeters.</b>
 
+You can check out the project here: https://millingconverter.netlify.app/
 
 ![millermachine converter](https://user-images.githubusercontent.com/126105599/230582904-a2153a28-384c-447b-b81c-fe10a331113e.png)
